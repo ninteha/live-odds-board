@@ -1,5 +1,7 @@
 # Live Odds Board
 
+[![CI](https://github.com/ninteha/live-odds-board/actions/workflows/ci.yml/badge.svg)](https://github.com/ninteha/live-odds-board/actions/workflows/ci.yml)
+
 A virtualized real-time live odds board displaying 10,000 matches updating via a mock WebSocket.
 
 ## Live demo
