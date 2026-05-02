@@ -4,7 +4,7 @@ A virtualized real-time live odds board displaying 10,000 matches updating via a
 
 ## Live demo
 
-> Add Vercel URL after deploy.
+**https://live-odds-board-gamma.vercel.app**
 
 ## Highlights
 
