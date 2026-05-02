@@ -103,6 +103,11 @@ body,
   margin-right: 5px;
 }
 
+/* Restore pointer cursor on buttons (Tailwind 4 dropped this default) */
+button:not(:disabled) {
+  cursor: pointer;
+}
+
 /* Range input — accent color */
 input[type='range'] {
   accent-color: var(--accent);
