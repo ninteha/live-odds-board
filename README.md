@@ -6,6 +6,23 @@ A virtualized real-time live odds board displaying 10,000 matches updating via a
 
 **https://live-odds-board-gamma.vercel.app**
 
+## Performance
+
+Lighthouse on the live deployment:
+
+![Lighthouse: Performance 100, Accessibility 82, Best Practices 100, SEO 100. FCP 0.7s, LCP 0.7s, TBT 0ms, CLS 0, Speed Index 0.7s.](docs/lighthouse.png)
+
+| Metric | Value |
+|---|---|
+| Performance | **100** |
+| First Contentful Paint | 0.7s |
+| Largest Contentful Paint | 0.7s |
+| Total Blocking Time | 0ms |
+| Cumulative Layout Shift | 0 |
+| Speed Index | 0.7s |
+| Best Practices | 100 |
+| SEO | 100 |
+
 ## Highlights
 
 - **10,000 matches**, virtualized via `react-window` (only the visible rows live in the DOM)
